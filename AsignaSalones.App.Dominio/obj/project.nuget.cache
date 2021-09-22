@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cZWFmFvtUSFL45b8to2LZYMj7X8E7gR7xqFdSFzRaqyTGVgrm6zhaYDg3+WMsjn3D/uidgwMF7gZdOcTsTBS/Q==",
+  "success": true,
+  "projectFilePath": "C:\\MisionTic-C3\\AsignaSalones\\AsignaSalones.App\\AsignaSalones.App.Dominio\\AsignaSalones.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Wil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

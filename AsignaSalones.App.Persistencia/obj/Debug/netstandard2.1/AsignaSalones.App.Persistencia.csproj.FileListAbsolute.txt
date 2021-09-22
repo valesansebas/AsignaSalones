@@ -1,0 +1,12 @@
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.csprojAssemblyReference.cache
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.AssemblyInfoInputs.cache
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.AssemblyInfo.cs
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\bin\Debug\netstandard2.1\AsignaSalones.App.Persistencia.deps.json
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\bin\Debug\netstandard2.1\AsignaSalones.App.Persistencia.dll
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\bin\Debug\netstandard2.1\AsignaSalones.App.Persistencia.pdb
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\bin\Debug\netstandard2.1\AsignaSalones.App.Dominio.dll
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\bin\Debug\netstandard2.1\AsignaSalones.App.Dominio.pdb
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.csproj.CopyComplete
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.dll
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Persistencia\obj\Debug\netstandard2.1\AsignaSalones.App.Persistencia.pdb

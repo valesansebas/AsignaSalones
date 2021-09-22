@@ -1,0 +1,9 @@
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\obj\Debug\netstandard2.0\AsignaSalones.App.Dominio.csprojAssemblyReference.cache
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\obj\Debug\netstandard2.0\AsignaSalones.App.Dominio.AssemblyInfoInputs.cache
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\obj\Debug\netstandard2.0\AsignaSalones.App.Dominio.AssemblyInfo.cs
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\obj\Debug\netstandard2.0\AsignaSalones.App.Dominio.csproj.CoreCompileInputs.cache
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\bin\Debug\netstandard2.0\AsignaSalones.App.Dominio.deps.json
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\bin\Debug\netstandard2.0\AsignaSalones.App.Dominio.dll
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\bin\Debug\netstandard2.0\AsignaSalones.App.Dominio.pdb
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\obj\Debug\netstandard2.0\AsignaSalones.App.Dominio.dll
+C:\MisionTic-C3\AsignaSalones\AsignaSalones.App\AsignaSalones.App.Dominio\obj\Debug\netstandard2.0\AsignaSalones.App.Dominio.pdb

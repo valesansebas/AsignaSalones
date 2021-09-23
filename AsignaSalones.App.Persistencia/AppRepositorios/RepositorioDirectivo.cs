@@ -2,7 +2,7 @@ using AsignaSalones.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AsignaSalones.App.Persistencia
+namespace AsignaSalones.App.Persistencia 
 {
     public class RepositorioDirectivo : IRepositorioDirectivo
     {

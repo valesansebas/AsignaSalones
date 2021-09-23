@@ -3,18 +3,18 @@ using AsignaSalones.App.Dominio;
 
 namespaceAsignaSalones.App.Persistencia
 {
-    public interface IRepositorioDirectivo
+    public interface IRepositorioPersona
     {
-        //GetAllDirectivos
-        IEnumerable<Directivo> GetAllDirectivos();
-        //AddDirectivo
-        Directivo AddDirectivo(Directivo Directivo);
-        //UpdateDirectivo
-        Directivo UpdateDirectivo(Directivo Directivo);
-        //DeleteDirectivo
-        void DeleteDirectivo(int idDirectivo);
-        //GetDirectivo
-        Directivo GetDirectivo(int idDirectivo);
+        //GetAllPersonas
+        IEnumerable<Persona> GetAllPersonas();
+        //AddPersona
+        Persona AddPersona(Persona Persona);
+        //UpdatePersona
+        Persona UpdatePersona(Persona Persona);
+        //DeletePersona
+        void DeletePersona(int idPersona);
+        //GetPersona
+        Persona GetPersona(int idPersona);
 
     }
 }

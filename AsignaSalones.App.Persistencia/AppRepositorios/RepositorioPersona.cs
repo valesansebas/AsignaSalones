@@ -4,54 +4,54 @@ using System.Linq;
 
 namespace AsignaSalones.App.Persistencia
 {
-    public class RepositorioDirectivo : IRepositorioDirectivo
+    public class RepositorioPersona : IRepositorioPersona
     {
         private readonly AppContext _appContext;
-        public RepositorioDirectivo(AppContext appContext)
+        public RepositorioPersona(AppContext appContext)
         {
             _appContext = appContext;
         }
 
-        Directivo IRepositorioDirectivo.AddDirectivo(Directivo directivo)
+        Persona IRepositorioPersona.AddPersona(Persona persona)
         {
-            var directivoAdicionado = _appContext.directivos.Add(directivo) ;
+            var personaAdicionado = _appContext.personas.Add(persona) ;
             _appContext.SaveChanges();
-            return directivoAdicionado.Entity ;
+            return personaAdicionado.Entity ;
         }
 
-        Directivo IRepositorioDirectivo.Updatedirectivo(directivo directivo)
+        Persona IRepositorioPersona.UpdatePersona(Persona persona)
         {
-            var directivoEncontrado = _appContext.directivos.FirstOrDefault(p => p.id == directivo.id);
-            if (directivoEncontrado != null)
+            var personaEncontrado = _appContext.personas.FirstOrDefault(p => p.id == persona.id);
+            if (personaEncontrado != null)
             {
-                directivoEncontrado.nombre = directivo.nombre;
-                directivoEncontrado.apellidos = directivo.apellidos;
-                directivoEncontrado.identificacion = directivo.identificacion;
-                directivoEncontrado.telefono = directivo.telefono;
-                directivoEncontrado.correo = directivo.correo;
+                personaEncontrado.nombre = persona.nombre;
+                personaEncontrado.apellidos = persona.apellidos;
+                personaEncontrado.identificacion = persona.identificacion;
+                personaEncontrado.telefono = persona.telefono;
+                personaEncontrado.correo = persona.correo;
                 _appContext.SaveChanges();
             }
-            return directivoEncontrado;
+            return personaEncontrado;
         }
 
-        void IRepositorioDirectivo.Deletedirectivo(int iddirectivo)
+        void IRepositorioPersona.DeletePersona(int idpersona)
         {
-            var directivoEncontrado = _appContext.directivos.FirstOrDefault(p => p.id == iddirectivo);
-            if (directivoEncontrado == null)
+            var personaEncontrado = _appContext.personas.FirstOrDefault(p => p.id == idpersona);
+            if (personaEncontrado == null)
                 return;
-            _appContext.directivos.Remove(directivoEncontrado);
+            _appContext.personas.Remove(personaEncontrado);
             _appContext.SaveChanges();
         }
 
-        Directivo IRepositorioDirectivo.Getdirectivo(int iddirectivo)
+        Persona IRepositorioPersona.GetPersona(int idpersona)
         {
-            var directivoEncontrado = _appContext.directivos.FirstOrDefault(p => p.id == iddirectivo);
-            return directivoEncontrado;
+            var personaEncontrado = _appContext.personas.FirstOrDefault(p => p.id == idpersona);
+            return personaEncontrado;
         }
 
-         IEnumerable<directivo> IRepositorioDirectivo.GetAlldirectivo()
+         IEnumerable<persona> IRepositorioPersona.GetAllPersona()
         {
-            return _appContext.directivos;
+            return _appContext.personas;
         }
     }
 }

@@ -3,7 +3,7 @@ using AsignaSalones.App.Dominio;
 
 namespaceAsignaSalones.App.Persistencia
 {
-    public interface IRepositorioDirectivo
+    public interface IRepositorioDirectivo 
     {
         //GetAllDirectivos
         IEnumerable<Directivo> GetAllDirectivos();
